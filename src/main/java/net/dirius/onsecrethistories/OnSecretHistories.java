@@ -1,5 +1,7 @@
 package net.dirius.onsecrethistories;
 
+import net.dirius.onsecrethistories.block.OSHBlocks;
+import net.dirius.onsecrethistories.item.OSHItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ public class OnSecretHistories implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		OSHItems.registerItems();
+		OSHBlocks.registerBlocks();
 	}
 }
