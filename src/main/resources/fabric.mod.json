@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "onsecrethistories",
+	"version": "${version}",
+	"name": "On Secret Histories",
+	"description": "A magic mod inspired by the setting and world building of the Secret Histories by Weather Factory",
+	"authors": [
+		"Dirius77"
+	],
+	"contact": {
+		"homepage": "https://dirius.net",
+		"sources": "https://github.com/Dirius77/onsecrethistories"
+	},
+	"license": "GPL-3.0-or-later",
+	"icon": "assets/onsecrethistories/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dirius.onsecrethistories.OnSecretHistories"
+		],
+		"fabric-datagen": [
+			"net.dirius.onsecrethistories.OnSecretHistoriesDataGenerator"
+		],
+		"client": [
+			"net.dirius.onsecrethistories.OnSecretHistoriesClient"
+		]
+	},
+	"mixins": [
+		"onsecrethistories.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
