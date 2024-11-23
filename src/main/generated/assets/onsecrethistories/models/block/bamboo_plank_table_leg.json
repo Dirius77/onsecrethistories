@@ -1,0 +1,6 @@
+{
+  "parent": "onsecrethistories:block/table_leg",
+  "textures": {
+    "texture": "minecraft:block/bamboo_planks"
+  }
+}

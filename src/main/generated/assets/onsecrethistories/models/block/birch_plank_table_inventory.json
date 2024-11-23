@@ -1,0 +1,6 @@
+{
+  "parent": "onsecrethistories:block/table_inventory",
+  "textures": {
+    "texture": "minecraft:block/birch_planks"
+  }
+}

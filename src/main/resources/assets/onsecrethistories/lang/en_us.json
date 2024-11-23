@@ -2,5 +2,13 @@
   "item.onsecrethistories.journal": "Journal",
   "item.onsecrethistories.mundane_ink": "Mundane Ink",
 
-  "block.onsecrethistories.wooden_table": "Wooden Table"
+  "block.onsecrethistories.acacia_plank_table": "Acacia Plank Table",
+  "block.onsecrethistories.bamboo_plank_table": "Bamboo Plank Table",
+  "block.onsecrethistories.birch_plank_table": "Birch Plank Table",
+  "block.onsecrethistories.cherry_plank_table": "Cherry Plank Table",
+  "block.onsecrethistories.dark_oak_plank_table": "Dark Oak Plank Table",
+  "block.onsecrethistories.jungle_plank_table": "Jungle Plank Table",
+  "block.onsecrethistories.mangrove_plank_table": "Mangrove Plank Table",
+  "block.onsecrethistories.oak_plank_table": "Oak Plank Table",
+  "block.onsecrethistories.spruce_plank_table": "Spruce Plank Table"
 }
